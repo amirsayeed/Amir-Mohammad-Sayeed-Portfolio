@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "HTML",
+      "image": "https://i.ibb.co/V0xGPrzB/167-Html5-logo-logos-512.png"
+    },
+    {
+      "id": 2,
+      "name": "Tailwind CSS",
+      "image": "https://i.ibb.co/yLGd5S6/tailwind-css-logo-5-AD4175897-seeklogo-com-removebg-preview.png"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "image": "https://i.ibb.co/KjntVqnm/javascript-logo-javascript-icon-transparent-free-png.png"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS",
+      "image": "https://i.ibb.co/BVXfSKKL/react-icon-512x512-u6e60ayf-removebg-preview.png"
+    },
+    {
+      "id": 5,
+      "name": "Firebase",
+      "image": "https://i.ibb.co/q3BbVPyP/st-small-507x507-pad-600x600-f8f8f8-removebg-preview.png"
+    },
+    {
+      "id": 6,
+      "name": "ExpressJS",
+      "image": "https://i.ibb.co/1c60S8T/rapidbrains-expressjs.webp"
+    },
+    {
+      "id": 7,
+      "name": "MongoDB",
+      "image": "https://i.ibb.co/tMP5W3Dv/mongodb-original-logo-icon-146424.png"
+    },
+    {
+      "id": 8,
+      "name": "Figma",
+      "image": "https://i.ibb.co/zTD5qQp6/figma-logo-512.png"
+    }
+]

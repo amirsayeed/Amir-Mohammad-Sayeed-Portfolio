@@ -10,10 +10,12 @@ const Banner = () => {
                 Frontend Web Developer.
                 </h1>
                 <p className="text-xl font-normal">I am passionate about creating modern, responsive web experiences and specialize in transforming ideas into engaging and visually appealing websites.</p>
-                <button className="btn btn-primary text-lg rounded-xl">Download CV <MdOutlineFileDownload size={20} /></button>
+                <button onClick={()=>{
+                    window.open('https://drive.google.com/file/d/1LIIIS9q3bSjEjAWuyN0RT8kjihunC6Th/view?usp=sharing','_blank')
+                }} className="btn btn-primary text-lg rounded-xl">Download CV <MdOutlineFileDownload size={20} /></button>
             </div>
             <div className='bg-base-300 p-3 rounded-3xl'>
-                <img src={pic} className="max-w-sm rounded-lg shadow-2xl"/>
+                <img src={pic} className="max-w-md rounded-lg shadow-2xl"/>
             </div>
         </div>
     </div>
