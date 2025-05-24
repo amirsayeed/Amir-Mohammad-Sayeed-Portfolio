@@ -1,0 +1,57 @@
+ [
+    {
+      "id": 1,
+      "name": "Espresso Emporium",
+      "image": "https://i.ibb.co/qFgFTLS2/Screenshot-2025-05-25-004331.png",
+      "description": "A full-stack coffee store app with public coffee listings and secured admin features for adding, updating, and deleting items by logged-in users.",
+      "github": "https://github.com/amirsayeed/coffee-store-client",
+      "live": "https://coffee-store-app-b9b68.web.app/",
+      "technologies": ["React", "Firebase", "Express", "MongoDB", "Tailwind CSS"]
+    },
+    {
+      "id": 2,
+      "name": "Subscription Box",
+      "image": "https://i.ibb.co/nNLZXZSK/Screenshot-2025-05-25-011821.png",
+      "description": "A responsive subscription box site with themed products, protected routes, dynamic pages, and smooth animations.",
+      "github": "https://github.com/amirsayeed/Subscription-Box",
+      "live": "https://subscription-box-edd92.web.app/",
+      "technologies": ["React", "Firebase", "Tailwind CSS", "DaisyUI"]
+    },
+    {
+      "id": 3,
+      "name": "Doc-Consult",
+      "image": "https://i.ibb.co/vxmJjSbC/Screenshot-2025-05-25-012041.png",
+      "description": "Doctor appointment app with profile browsing, booking system, data visualization, and user authentication.",
+      "github": "https://github.com/amirsayeed/Doc-Consult",
+      "live": "https://doc-consult.netlify.app/",
+      "technologies": ["React", "Tailwind CSS", "DaisyUI"]
+    },
+    {
+      "id": 4,
+      "name": "Cricket Dream Eleven",
+      "image": "https://i.ibb.co/7dQ7RMq3/Screenshot-2025-05-25-011539.png",
+      "description": "Fantasy cricket team builder with player selection, coin validation, toast notifications, and interactive features.",
+      "github": "https://github.com/amirsayeed/Cricket-Dream-Eleven",
+      "live": "https://cricket-dream-eleven.netlify.app/",
+      "technologies": ["React", "Tailwind CSS", "DaisyUI"]
+    },
+    {
+      "id": 5,
+      "name": "Auction Bidding Gallery",
+      "image": "https://i.ibb.co/zVfyMGHP/Screenshot-2025-05-25-012227.png",
+      "description": "Auction bidding platform with dynamic item listings, real-time favorites tracking, bid price calculations, disabled actions after selection.",
+      "github": "https://github.com/amirsayeed/Auction-Bidding-Gallery",
+      "live": "https://auction-bidding-gallery.netlify.app/",
+      "technologies": ["React", "Tailwind CSS", "DaisyUI"]
+    },
+    {
+      "id": 6,
+      "name": "Auction Bidding Gallery",
+      "image": "https://i.ibb.co/qFgFTLS2/Screenshot-2025-05-25-004331.png",
+      "description": "Auction bidding platform with dynamic item listings, real-time favorites tracking, bid price calculations, disabled actions after selection.",
+      "github": "https://github.com/amirsayeed/Auction-Bidding-Gallery",
+      "live": "https://auction-bidding-gallery.netlify.app/",
+      "technologies": ["React", "Tailwind CSS", "DaisyUI"]
+    }
+]
+

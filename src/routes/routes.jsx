@@ -18,6 +18,7 @@ export const router = createBrowserRouter([
         },
         {
             path: '/portfolio',
+            loader: ()=> fetch('../projects.json'),
             Component: Portfolio
         },
         {

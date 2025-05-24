@@ -4,7 +4,7 @@ import { MdOutlineFileDownload } from 'react-icons/md';
 const Banner = () => {
     return (
     <div className="w-11/12 mx-auto mt-20">
-        <div className="flex flex-col md:flex-row justify-between">
+        <div className="flex flex-col justify-center md:flex-row md:justify-between gap-3">
             <div className="text-center lg:text-left space-y-6 max-w-2xl">
                 <h1 className="text-5xl font-semibold">Hi, I'm <span className="text-green-400">Amir Mohammad Sayeed.</span> A
                 Frontend Web Developer.
@@ -14,8 +14,8 @@ const Banner = () => {
                     window.open('https://drive.google.com/file/d/1LIIIS9q3bSjEjAWuyN0RT8kjihunC6Th/view?usp=sharing','_blank')
                 }} className="btn btn-primary text-lg rounded-xl">Download CV <MdOutlineFileDownload size={20} /></button>
             </div>
-            <div className='bg-base-300 p-3 rounded-3xl'>
-                <img src={pic} className="max-w-md rounded-lg shadow-2xl"/>
+            <div className='px-1'>
+                <img src={pic} className="max-w-md object-cover rounded-lg shadow-2xl"/>
             </div>
         </div>
     </div>
