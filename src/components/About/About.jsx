@@ -18,7 +18,7 @@ const About = () => {
             <div className='mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
                 {
                     skills.map(skill =>
-                        <div key={skill.id} className="card bg-base-200 shadow-md hover:scale-105">
+                        <div key={skill.id} className="card bg-base-200 shadow-md hover:scale-105 rounded-2xl">
                             <figure className="px-5 pt-5">
                                 <img
                                     src={skill.image}

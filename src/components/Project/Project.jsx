@@ -1,15 +1,15 @@
 import React from 'react';
 
 const Project = ({project}) => {
-    const {id,name,image,description,github,live,technologies} = project;
+    const {name,image,description,github,live,technologies} = project;
 
     return (
-        <div className="card bg-base-200 shadow-md p-4">
+        <div className="card bg-base-200 shadow-md p-4 hover:scale-105">
                     <figure>
                         <img
                         src={image}
                         alt="Shoes"
-                        className="w-full object-cover rounded-xl" />
+                        className="object-cover rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center space-y-3">
                         <h2 className="text-2xl font-semibold">{name}</h2>
