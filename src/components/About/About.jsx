@@ -26,7 +26,7 @@ const About = () => {
                                     className="w-[100px] object-cover rounded-2xl" />
                             </figure>
                             <div className="card-body items-center text-center">
-                                <h2 className="text-xl font-semibold">{skill.name}</h2>
+                                <h2 className="text-lg font-semibold">{skill.name}</h2>
                             </div>
                         </div>
                     )

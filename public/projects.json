@@ -6,7 +6,7 @@
       "description": "A full-stack coffee store app with public coffee listings and secured admin features for adding, updating, and deleting items by logged-in users.",
       "github": "https://github.com/amirsayeed/coffee-store-client",
       "live": "https://coffee-store-app-b9b68.web.app/",
-      "technologies": ["React", "Firebase", "Express", "MongoDB", "Tailwind CSS"]
+      "technologies": ["React", "Firebase", "Express", "MongoDB", "Tailwind"]
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "description": "A responsive subscription box site with themed products, protected routes, dynamic pages, and smooth animations.",
       "github": "https://github.com/amirsayeed/Subscription-Box",
       "live": "https://subscription-box-edd92.web.app/",
-      "technologies": ["React", "Firebase", "Tailwind CSS", "DaisyUI"]
+      "technologies": ["React", "Firebase", "Tailwind", "DaisyUI"]
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@
       "description": "Doctor appointment app with profile browsing, booking system, data visualization, and user authentication.",
       "github": "https://github.com/amirsayeed/Doc-Consult",
       "live": "https://doc-consult.netlify.app/",
-      "technologies": ["React", "Tailwind CSS", "DaisyUI"]
+      "technologies": ["React", "Tailwind", "DaisyUI"]
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "description": "Fantasy cricket team builder with player selection, coin validation, toast notifications, and interactive features.",
       "github": "https://github.com/amirsayeed/Cricket-Dream-Eleven",
       "live": "https://cricket-dream-eleven.netlify.app/",
-      "technologies": ["React", "Tailwind CSS", "DaisyUI"]
+      "technologies": ["React", "Tailwind", "DaisyUI"]
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "description": "Auction bidding platform with dynamic item listings, real-time favorites tracking, bid price calculations, disabled actions after selection.",
       "github": "https://github.com/amirsayeed/Auction-Bidding-Gallery",
       "live": "https://auction-bidding-gallery.netlify.app/",
-      "technologies": ["React", "Tailwind CSS", "DaisyUI"]
+      "technologies": ["React", "Tailwind", "DaisyUI"]
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "description": "A vocabulary learning app that features login, dynamic lessons, word modals, speech, smooth scroll, and SweetAlert2.",
       "github": "https://github.com/amirsayeed/English-Vocab-Janala",
       "live": "https://english-vocab-janala.netlify.app//",
-      "technologies": ["HTML", "JS", "Tailwind CSS", "DaisyUI"]
+      "technologies": ["HTML", "JS", "Tailwind", "DaisyUI"]
     }
 ]
 
