@@ -13,7 +13,7 @@ const Portfolio = () => {
     },[])
     
     return (
-        <div className='my-20'>
+        <section className='scroll-mt-24 my-20' id='portfolio'>
             <div className='text-center space-y-6 max-w-4xl mx-auto'>
                 <h2 className="text-3xl font-bold">My Portfolio</h2>
                 <p className='text-lg font-normal'>I love building web applications that are clean, responsive, and user-friendly.
@@ -24,7 +24,7 @@ const Portfolio = () => {
                     projects.map(project=><Project key={project.id} project={project}/>)
                 }
             </div>
-        </div>
+        </section>
     );
 };
 

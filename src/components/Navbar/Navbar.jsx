@@ -3,13 +3,14 @@ import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
     const links = <>
-                    <li><NavLink to="/">Home</NavLink></li>
-                    {/* <li><NavLink to="/portfolio">Portfolio</NavLink></li> */}
-                    <li><NavLink to="/blogs">Blogs</NavLink></li>
-                    <li><NavLink to="/contact">Contact</NavLink></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                   </>
     return (
-        <div className="navbar">
+        <div className="navbar bg-base-100 sticky top-0 z-50 shadow-md">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

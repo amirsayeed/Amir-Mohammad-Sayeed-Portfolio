@@ -6,17 +6,24 @@ import { delay } from 'motion';
 
 const Banner = () => {
     return (
-    <div className="w-11/12 mx-auto mt-20">
+    <section
+    className="w-11/12 mx-auto mt-20" id='banner'>
         <div className="flex flex-col justify-center md:flex-row md:justify-between gap-8 md:gap-5">
             <div className="text-center lg:text-left space-y-6 max-w-2xl">
                 <motion.h1
                  animate={{
-                    x: [0,15,0],
-                    transition: { duration: 3, repeat: Infinity }
+                    x: [0,15,0]
                  }}
-                 className="text-5xl font-semibold">Hi, I'm <span className="text-green-400">Amir Mohammad Sayeed.</span>  A
-                Frontend Web Developer.
+                 transition= {{ duration: 3, repeat: Infinity}}
+
+                 className="text-5xl font-semibold">Hi, I'm <motion.span 
+                 animate={{
+                    color: ['#f3785d','#74f35d'],
+                 }}
+                 transition= {{ duration: 3, repeat: Infinity}}
+                 >Amir Mohammad Sayeed.</motion.span>
                 </motion.h1>
+                <h2 className="text-2xl mt-2 font-bold ">Full Stack Web Developer (MERN)</h2>
                 <p className="text-xl font-normal">I am passionate about creating modern, responsive web experiences and specialize in transforming ideas into engaging and visually appealing websites.</p>
                 <button onClick={()=>{
                     window.open('https://drive.google.com/file/d/1LIIIS9q3bSjEjAWuyN0RT8kjihunC6Th/view?usp=sharing','_blank')
@@ -28,10 +35,10 @@ const Banner = () => {
                 transition: { duration:  3, repeat:Infinity  }
             }}
             className='px-1'>
-                <img src={pic} className="max-w-md border-s-8 border-s-blue-400 border-b-8 border-b-blue-500  object-cover rounded-lg shadow-2xl"/>
+                <img src={pic} className="max-w-md border-s-8 border-b-8 border-blue-500 object-cover rounded-xl shadow-2xl"/>
             </motion.div>
         </div>
-    </div>
+    </section>
     );
 };
 

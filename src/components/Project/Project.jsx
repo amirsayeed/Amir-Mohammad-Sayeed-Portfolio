@@ -25,7 +25,7 @@ const Project = ({project}) => {
                         <div>
                             <p className='flex flex-wrap gap-3'>
                             {
-                                technologies.map((tech,idx)=><span key={idx}>#{tech}</span>)
+                                technologies.map((tech,idx)=><span key={idx} className='text-sm'>#{tech}</span>)
                             }
                             </p>
                         </div>
