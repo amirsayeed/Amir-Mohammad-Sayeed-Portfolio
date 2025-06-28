@@ -37,9 +37,6 @@ const Banner = () => {
                     <a href="https://linkedin.com/in/amirsayeed" target="_blank" rel="noopener noreferrer">
                         <BsLinkedin className="text-2xl text-blue-600" />
                     </a>
-                    <a href="mailto:amirsayeed090@gmail.com">
-                        <FaEnvelope className="text-2xl" />
-                    </a>
                 </div>
             </div>
             <motion.div 

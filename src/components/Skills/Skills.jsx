@@ -1,13 +1,22 @@
 import React, { useEffect, useState } from 'react';
+import Loading from '../Loading/Loading';
 
 const Skills = () => {
     const [skills, setSkills] = useState([]);
-
+    const [loading,setLoading] = useState(false);
     useEffect(() => {
+        setLoading(true);
         fetch('/skills.json')
             .then(res => res.json())
-            .then(data => setSkills(data));
+            .then(data => {
+                setSkills(data)
+                setLoading(false)
+            });
     }, []);
+
+    if(loading){
+        return <Loading/>
+    }
 
     return (
         <section className="scroll-mt-24 my-20 px-4" id="skills">

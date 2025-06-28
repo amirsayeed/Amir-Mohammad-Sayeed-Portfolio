@@ -1,16 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import Project from '../../components/Project/Project';
+import Loading from '../../components/Loading/Loading';
 
 const Portfolio = () => {
     // const allProjects = useLoaderData();
     // console.log(allProjects);
     const [projects,setProjects] = useState([]);
-
+    const [loading,setLoading] = useState(false);
     useEffect(()=>{
+        setLoading(true);
         fetch('/projects.json')
         .then(res=>res.json())
-        .then(data=>setProjects(data))
+        .then(data=>{
+            setProjects(data)
+            setLoading(false)
+        })
     },[])
+
+    if(loading){
+        return <Loading/>;
+    }
     
     return (
         <section className='scroll-mt-24 my-20' id='portfolio'>

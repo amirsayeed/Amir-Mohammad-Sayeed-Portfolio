@@ -5,11 +5,11 @@ const Project = ({project}) => {
 
     return (
         <div className="card bg-base-200 shadow-md p-4 hover:scale-105">
-                    <figure>
+                    <figure className=''>
                         <img
                         src={image}
                         alt="Shoes"
-                        className="object-cover rounded-xl" />
+                        className="w-full h-[200px] rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center space-y-4">
                         <h2 className="text-2xl font-semibold">{name}</h2>

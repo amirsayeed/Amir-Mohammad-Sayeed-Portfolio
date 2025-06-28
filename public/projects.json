@@ -1,57 +1,30 @@
  [
     {
       "id": 1,
-      "name": "Espresso Emporium",
-      "image": "https://i.ibb.co/qFgFTLS2/Screenshot-2025-05-25-004331.png",
-      "description": "A full-stack coffee store app with public coffee listings and secured admin features for adding, updating, and deleting items by logged-in users.",
-      "github": "https://github.com/amirsayeed/coffee-store-client",
-      "live": "https://coffee-store-app-b9b68.web.app/",
+      "name": "Volunteer Management",
+      "image": "https://i.ibb.co/B2tF57H4/Screenshot-2025-06-28-225655.png",
+      "description": "A full-stack volunteer management web application where admins can post events and volunteers can register, track participation, and view upcoming opportunities.",
+      "github": "https://github.com/amirsayeed/Volunteer-Management-Client",
+      "live": "https://volunteer-management-a44f1.web.app/",
       "technologies": ["React", "Firebase", "Express", "MongoDB", "Tailwind"]
     },
     {
       "id": 2,
-      "name": "Subscription Box",
-      "image": "https://i.ibb.co/nNLZXZSK/Screenshot-2025-05-25-011821.png",
-      "description": "A responsive subscription box site with themed products, protected routes, dynamic pages, and smooth animations.",
-      "github": "https://github.com/amirsayeed/Subscription-Box",
-      "live": "https://subscription-box-edd92.web.app/",
-      "technologies": ["React", "Firebase", "Tailwind", "DaisyUI"]
+      "name": "Plant Care",
+      "image": "https://i.ibb.co/0yqTpJYp/Screenshot-2025-06-28-231328.png",
+      "description": "A full-stack plant management app where users can track and care for their plants with personalized CRUD features, secure auth, theme toggle, and responsive UI.",
+      "github": "https://github.com/amirsayeed/Plant-Care-Client",
+      "live": "https://plant-care-tracker-6b11a.web.app/",
+      "technologies": ["React", "Firebase", "Express", "MongoDB", "Tailwind"]
     },
     {
       "id": 3,
-      "name": "Doc-Consult",
-      "image": "https://i.ibb.co/vxmJjSbC/Screenshot-2025-05-25-012041.png",
-      "description": "Doctor appointment app with profile browsing, booking system, data visualization, and user authentication.",
-      "github": "https://github.com/amirsayeed/Doc-Consult",
-      "live": "https://doc-consult.netlify.app/",
-      "technologies": ["React", "Tailwind", "DaisyUI"]
-    },
-    {
-      "id": 4,
-      "name": "Cricket Dream Eleven",
-      "image": "https://i.ibb.co/7dQ7RMq3/Screenshot-2025-05-25-011539.png",
-      "description": "Fantasy cricket team builder with player selection, coin validation, toast notifications, and interactive features.",
-      "github": "https://github.com/amirsayeed/Cricket-Dream-Eleven",
-      "live": "https://cricket-dream-eleven.netlify.app/",
-      "technologies": ["React", "Tailwind", "DaisyUI"]
-    },
-    {
-      "id": 5,
-      "name": "Auction Bidding Gallery",
-      "image": "https://i.ibb.co/zVfyMGHP/Screenshot-2025-05-25-012227.png",
-      "description": "Auction bidding platform with dynamic item listings, real-time favorites tracking, bid price calculations, disabled actions after selection.",
-      "github": "https://github.com/amirsayeed/Auction-Bidding-Gallery",
-      "live": "https://auction-bidding-gallery.netlify.app/",
-      "technologies": ["React", "Tailwind", "DaisyUI"]
-    },
-    {
-      "id": 6,
-      "name": "English Vocab Janala",
-      "image": "https://i.ibb.co/CK9dJ8ZY/Screenshot-2025-05-25-163157.png",
-      "description": "A vocabulary learning app that features login, dynamic lessons, word modals, speech, smooth scroll, and SweetAlert2.",
-      "github": "https://github.com/amirsayeed/English-Vocab-Janala",
-      "live": "https://english-vocab-janala.netlify.app//",
-      "technologies": ["HTML", "JS", "Tailwind", "DaisyUI"]
+      "name": "Subscription Box",
+      "image": "https://i.ibb.co/9kd0Fd3x/Screenshot-2025-06-28-232511.png",
+      "description": "A responsive subscription platform showcasing curated tech boxes with detailed product views. Features secure authentication and protected routes for accessing premium content.",
+      "github": "https://github.com/amirsayeed/Subscription-Box",
+      "live": "https://subscription-box-edd92.web.app/",
+      "technologies": ["React", "Firebase", "Tailwind", "DaisyUI"]
     }
 ]
 
