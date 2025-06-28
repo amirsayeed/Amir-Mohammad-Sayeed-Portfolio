@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
     const links = <>
@@ -25,7 +24,7 @@ const Navbar = () => {
                 <a className="btn btn-ghost text-3xl font-bold">Sayeed</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-lg font-medium">
+                <ul className="menu menu-horizontal px-1 text-base font-medium">
                     {links}
                 </ul>
             </div>

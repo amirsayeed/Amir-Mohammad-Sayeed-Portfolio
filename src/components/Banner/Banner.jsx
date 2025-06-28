@@ -3,16 +3,18 @@ import pic from '../../assets/wmremove-transformed_300x300-removebg.png'
 import { MdOutlineFileDownload } from 'react-icons/md';
 import { motion } from "motion/react";
 import { delay } from 'motion';
+import { FaEnvelope, FaGithub } from 'react-icons/fa';
+import { BsLinkedin } from 'react-icons/bs';
 
 const Banner = () => {
     return (
     <section
     className="w-11/12 mx-auto mt-20" id='banner'>
-        <div className="flex flex-col justify-center md:flex-row md:justify-between gap-8 md:gap-5">
+        <div className="flex flex-col items-center justify-center md:flex-row md:justify-between gap-10 md:gap-5">
             <div className="text-center lg:text-left space-y-6 max-w-2xl">
                 <motion.h1
                  animate={{
-                    x: [0,15,0]
+                    x: [0,20,0]
                  }}
                  transition= {{ duration: 3, repeat: Infinity}}
 
@@ -27,7 +29,18 @@ const Banner = () => {
                 <p className="text-xl font-normal">I am passionate about creating modern, responsive web experiences and specialize in transforming ideas into engaging and visually appealing websites.</p>
                 <button onClick={()=>{
                     window.open('https://drive.google.com/file/d/1LIIIS9q3bSjEjAWuyN0RT8kjihunC6Th/view?usp=sharing','_blank')
-                }} className="btn btn-primary text-lg rounded-xl">Download CV <MdOutlineFileDownload size={20} /></button>
+                }} className="btn btn-primary text-lg rounded-xl">Download Resume <MdOutlineFileDownload size={20} /></button>
+                <div className="flex gap-10 items-center justify-center lg:items-start lg:justify-start">
+                    <a href="https://github.com/amirsayeed" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className="text-2xl" />
+                    </a>
+                    <a href="https://linkedin.com/in/amirsayeed" target="_blank" rel="noopener noreferrer">
+                        <BsLinkedin className="text-2xl text-blue-600" />
+                    </a>
+                    <a href="mailto:amirsayeed090@gmail.com">
+                        <FaEnvelope className="text-2xl" />
+                    </a>
+                </div>
             </div>
             <motion.div 
             animate={{
