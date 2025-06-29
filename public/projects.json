@@ -24,7 +24,7 @@
     {
       "id": 2,
       "name": "Plant Care",
-      "image": "https://i.ibb.co/0yqTpJYp/Screenshot-2025-06-28-231328.png",
+      "image": "https://i.ibb.co/jkNdTkvs/Screenshot-2025-06-28-231328.png",
       "description": "A full-stack plant management app where users can track and care for their plants with personalized CRUD features, secure auth, theme toggle, and responsive UI.",
       "details": "Plant Care is a responsive full-stack application tailored for plant lovers. Users can add, edit, and delete plant profiles, each associated with care tips and maintenance schedules. The platform supports Firebase authentication, a user dashboard, theme toggle, and a table view of all plants. Users can view plant details, sort by upcoming watering dates, and manage their personal plant list. The goal is to simplify the plant care process while offering a smooth and user-friendly experience.",
       "github": "https://github.com/amirsayeed/Plant-Care-Client",
