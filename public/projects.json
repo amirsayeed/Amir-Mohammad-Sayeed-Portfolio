@@ -3,28 +3,68 @@
       "id": 1,
       "name": "Volunteer Management",
       "image": "https://i.ibb.co/B2tF57H4/Screenshot-2025-06-28-225655.png",
-      "description": "A full-stack volunteer management web application where admins can post events and volunteers can register, track participation, and view upcoming opportunities.",
+      "description": "A responsive platform for creating and joining volunteer opportunities with secure authentication, post management, and personalized user experience.",
+      "details": "Volunteer Management is a full-stack web application where users can create volunteering posts, browse other users’ posts, and choose to participate. Each user can manage their own posts through full CRUD operations and can also cancel their participation from events they’ve joined. The app emphasizes user-generated content, secure authentication, and a smooth UI for managing volunteering activities without any admin role.",
       "github": "https://github.com/amirsayeed/Volunteer-Management-Client",
       "live": "https://volunteer-management-a44f1.web.app/",
-      "technologies": ["React", "Firebase", "Express", "MongoDB", "Tailwind"]
+      "technologies": ["React", "Firebase", "Express", "MongoDB", "Tailwind"],
+      "challenges": [
+        "Ensuring that only post owners can update or delete their posts.",
+        "Managing volunteer states and cancellation without admin moderation.",
+        "Implementing protected routes and conditional rendering based on auth state."
+      ],
+      "future": [
+        "Introduce role-based access with admin and user roles.",
+        "Create a dedicated admin dashboard to manage all posts and users.",
+        "Add event participation analytics for better engagement insights.",
+        "Implement report/flag feature to monitor inappropriate content.",
+        "Send email notifications to users for upcoming volunteer events."
+      ]
     },
     {
       "id": 2,
       "name": "Plant Care",
       "image": "https://i.ibb.co/0yqTpJYp/Screenshot-2025-06-28-231328.png",
       "description": "A full-stack plant management app where users can track and care for their plants with personalized CRUD features, secure auth, theme toggle, and responsive UI.",
+      "details": "Plant Care is a responsive full-stack application tailored for plant lovers. Users can add, edit, and delete plant profiles, each associated with care tips and maintenance schedules. The platform supports Firebase authentication, a user dashboard, theme toggle, and a table view of all plants. Users can view plant details, sort by upcoming watering dates, and manage their personal plant list. The goal is to simplify the plant care process while offering a smooth and user-friendly experience.",
       "github": "https://github.com/amirsayeed/Plant-Care-Client",
       "live": "https://plant-care-tracker-6b11a.web.app/",
-      "technologies": ["React", "Firebase", "Express", "MongoDB", "Tailwind"]
+      "technologies": ["React", "Firebase", "Express", "MongoDB", "Tailwind"],
+      "challenges": [
+        "Implementing dynamic sorting for plant data based on next watering date.",
+        "Querying and displaying the most recently added plants on the homepage.",
+        "Ensuring authenticated users only see and manage their own plants securely."
+      ],
+      "future": [
+        "Add calendar view for upcoming watering schedules.",
+        "Implement notifications/reminders for watering (email or in-app).",
+        "Create an admin role to feature or manage user-submitted plants.",
+        "Support image upload for each plant profile.",
+        "Implement pagination for the all plants page to improve scalability."
+      ]
     },
     {
       "id": 3,
       "name": "Subscription Box",
       "image": "https://i.ibb.co/9kd0Fd3x/Screenshot-2025-06-28-232511.png",
       "description": "A responsive subscription platform showcasing curated tech boxes with detailed product views. Features secure authentication and protected routes for accessing premium content.",
+      "details": "Subscription Box is a fully responsive and interactive web application that showcases a variety of tech-themed subscription boxes including smart home gadgets, gaming accessories, and developer essentials. Users can browse featured boxes, view detailed product information, and access premium routes like profile,  contact pages and product details through secure Firebase authentication. The application also features an editable user profile (name and profile image), smooth AOS animations, and consistent layout across all devices. Built with React, Firebase, Tailwind CSS, and DaisyUI, it provides a clean, animated experience that highlights modern web development practices.",
       "github": "https://github.com/amirsayeed/Subscription-Box",
       "live": "https://subscription-box-edd92.web.app/",
-      "technologies": ["React", "Firebase", "Tailwind", "DaisyUI"]
+      "technologies": ["React", "Firebase", "Tailwind", "DaisyUI", "React Router DOM", "AOS"],
+      "challenges": [
+        "Integrating AOS animations smoothly with route transitions and content loading.",
+        "Protecting routes and redirecting unauthorized users effectively using React Router.",
+        "Managing dynamic product detail routing and consistent layout rendering.",
+        "Handling form validation and toast-based feedback for login, registration, and profile updates."
+      ],
+      "future": [
+        "Integrate Stripe or another payment gateway for real subscriptions.",
+        "Add an admin dashboard for managing subscription boxes and users.",
+        "Implement order history and billing management for users.",
+        "Enable user reviews and rating submissions for each box.",
+        "Improve performance with pagination or lazy loading for box listings."
+      ]
     }
 ]
 

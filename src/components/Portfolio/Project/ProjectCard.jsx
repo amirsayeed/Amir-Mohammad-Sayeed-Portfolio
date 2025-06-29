@@ -23,7 +23,7 @@ const ProjectCard = ({project}) => {
                     window.open(github, '_blank')
                 }} className="btn btn-primary">Github</button>
             </div> */}
-            <p className='flex flex-wrap gap-3'>
+            <p className='flex flex-wrap gap-2'>
                 {
                     technologies.map((tech,idx)=><span key={idx} className='badge badge-outline badge-primary text-xs'>{tech}</span>)
                 }
