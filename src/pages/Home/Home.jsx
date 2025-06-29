@@ -13,6 +13,8 @@ const skillsPromise = fetch('/skills.json').then(res=>res.json());
 //console.log(skillsPromise);
 const Home = () => {
     return (
+        <> 
+        <title>Sayeed | Home</title>
         <div>
             <Banner/>
             <About/>
@@ -23,6 +25,7 @@ const Home = () => {
             <Portfolio/>
             <Contact/>
         </div>
+        </>
     );
 };
 

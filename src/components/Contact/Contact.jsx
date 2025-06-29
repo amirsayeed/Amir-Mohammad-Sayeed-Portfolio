@@ -28,20 +28,20 @@ const Contact = () => {
       <section id='contact' className="scroll-mt-24 my-20">
         <h3 className="text-3xl font-bold text-center">Contact</h3>
 
-        <div className="grid max-w-5xl grid-cols-1 p-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x bg-base-200 mt-10">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 md:divide-x bg-base-200 mt-10 rounded-2xl p-10 gap-5">
           {/* Left side — Your contact info */}
-          <div className="py-6 md:py-0 md:px-6 space-y-6">
+          <div className="space-y-6">
             <p className="text-xl font-medium">Feel free to reach out via any of the following:</p>
 
-            <div className="space-y-4">
-              <p className="flex items-center">
+            <div className="space-y-5">
+              <p className="flex flex-col md:flex-row items-center">
                 <MdEmail className="w-6 h-6 mr-3" />
                 <a href="mailto:amirsayeed090@gmail.com" className="hover:underline">
                   amirsayeed090@gmail.com
                 </a>
               </p>
 
-              <p className="flex items-center">
+              <p className="flex flex-col md:flex-row items-center">
                 <FaWhatsapp className="w-6 h-6 mr-3" />
                 <a
                   href="https://wa.me/8801716473978"
@@ -53,7 +53,7 @@ const Contact = () => {
                 </a>
               </p>
 
-              <p className="flex items-center">
+              <p className="flex flex-col md:flex-row items-center">
                 <MdLocationOn className="w-6 h-6 mr-3" />
                 Chattogram, Bangladesh
               </p>

@@ -30,7 +30,9 @@ const ProjectCard = ({project}) => {
             </p>
             <div className='card-actions justify-center'>
                 <Link to={`/projectDetails/${id}`}>
-                    <button className='btn btn-outline p-2'>View Details</button>
+                    <button onClick={()=>{
+                        window.scrollTo(0,0);
+                    }} className='btn btn-primary p-2'>View Details</button>
                 </Link>
             </div>
             

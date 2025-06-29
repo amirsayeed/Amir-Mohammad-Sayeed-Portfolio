@@ -26,17 +26,18 @@
     },
     {
       "id": 6,
+      "name": "NodeJS",
+      "image": "https://i.ibb.co/v4rSZQN5/images-q-tbn-ANd9-Gc-Qatf-L9r506-Op-CHG0-ZWc-Lg-Bkn-Nb2ush-EAw-TI60-Rw8c-Ka-Lkib-V8yl-Gi-HM3-CKPLxh.jpg"
+    },
+    {
+      "id": 7,
       "name": "ExpressJS",
       "image": "https://i.ibb.co/1c60S8T/rapidbrains-expressjs.webp"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "MongoDB",
       "image": "https://i.ibb.co/tMP5W3Dv/mongodb-original-logo-icon-146424.png"
-    },
-    {
-      "id": 8,
-      "name": "Figma",
-      "image": "https://i.ibb.co/zTD5qQp6/figma-logo-512.png"
     }
+    
 ]

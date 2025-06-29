@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, useLocation } from 'react-router';
 
 const Navbar = () => {
+    const location = useLocation();
+    const isHome = location.pathname==='/';
     const links = <>
                     <li><a href="#about">About</a></li>
                     <li><a href="#education">Education</a></li>
@@ -9,6 +11,9 @@ const Navbar = () => {
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                   </>
+
+    const home = <li><Link to='/'>Home</Link></li>;
+
     return (
         <div className="navbar bg-base-100 sticky top-0 z-50 shadow-md">
             <div className="navbar-start">
@@ -19,14 +24,16 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        {links}
+                        {isHome ? links : home}
                     </ul>
                     </div>
-                <Link to='/' className="btn btn-ghost text-3xl font-bold">Sayeed</Link>
+                <div>
+                    <Link to='/' className="btn btn-ghost text-3xl font-bold">Sayeed</Link>
+                </div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-base font-medium">
-                    {links}
+                    {isHome ? links : home}
                 </ul>
             </div>
             <div className="navbar-end">

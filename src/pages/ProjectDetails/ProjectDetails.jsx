@@ -32,12 +32,14 @@ const ProjectDetails = () => {
     } = project;
 
     return (
-        <div className="px-4 py-8 max-w-5xl mx-auto">
+        <>
+        <title>Sayeed | Project Details </title>
+        <div className="my-10 max-w-5xl mx-auto">
             <button
                 onClick={() => navigate(-1)}
                 className="mb-6 text-lg flex items-center gap-2"
             >
-                <FaArrowLeft /> Back
+                <FaArrowLeft /> Back to Home
             </button>
 
             <div className="space-y-8">
@@ -66,7 +68,7 @@ const ProjectDetails = () => {
                     href={live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-success gap-2 text-white rounded-xl"
+                    className="btn btn-primary gap-2 text-white rounded-xl"
                 >
                     Live Site <FaExternalLinkAlt />
                 </a>
@@ -99,6 +101,7 @@ const ProjectDetails = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

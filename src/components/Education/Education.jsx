@@ -3,7 +3,7 @@ import React from 'react';
 const Education = () => {
   return (
     <section className="scroll-mt-24 my-20" id='education'>
-       <div className="max-w-4xl mx-auto">
+       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12 text-base-content">
           Education
         </h2>
@@ -14,13 +14,15 @@ const Education = () => {
               Undergraduate
             </h3>
 
-            <p className="text-base font-medium text-base-content">
-              BSc in Computer Science and Engineering
-            </p>
+            <div className='mt-2'>
+                <p className="text-base font-medium text-base-content">
+                  BSc in Computer Science and Engineering
+                </p>
 
-            <p className="text-base text-base-content font-medium">
-              Chittagong University of Engineering & Technology
-            </p>
+                <p className="text-base text-base-content font-medium">
+                  Chittagong University of Engineering & Technology
+                </p>
+            </div>
           </div>
 
           <div className="mt-4 md:mt-0 md:text-right text-base text-base-content font-medium whitespace-nowrap">
