@@ -1,22 +1,24 @@
-import React, { useEffect, useState } from 'react';
-import Loading from '../Loading/Loading';
+import React, { use } from 'react';
+import SkillCard from './SkillCard';
 
-const Skills = () => {
-    const [skills, setSkills] = useState([]);
-    const [loading,setLoading] = useState(false);
-    useEffect(() => {
-        setLoading(true);
-        fetch('/skills.json')
-            .then(res => res.json())
-            .then(data => {
-                setSkills(data)
-                setLoading(false)
-            });
-    }, []);
+const Skills = ({skillsPromise}) => {
+    const skillsData = use(skillsPromise);
+    //console.log(skillsData);
+    // const [skills, setSkills] = useState([]);
+    // const [loading,setLoading] = useState(false);
+    // useEffect(() => {
+    //     setLoading(true);
+    //     fetch('/skills.json')
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             setSkills(data)
+    //             setLoading(false)
+    //         });
+    // }, []);
 
-    if(loading){
-        return <Loading/>
-    }
+    // if(loading){
+    //     return <Loading/>;
+    // }
 
     return (
         <section className="scroll-mt-24 my-20 px-4" id="skills">
@@ -25,26 +27,12 @@ const Skills = () => {
 
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
                     {
-                        skills.map(skill =>
-                            <div
-                                key={skill.id}
-                                className="bg-base-200 shadow-md hover:scale-105 transition-transform duration-200 rounded-2xl p-6 w-full max-w-[220px]"
-                            >
-                                <figure className="flex justify-center mb-4">
-                                    <img
-                                        src={skill.image}
-                                        alt={skill.name}
-                                        className="w-16 object-contain rounded-xl"
-                                    />
-                                </figure>
-                                <div className="text-center">
-                                    <h2 className="text-lg font-semibold">{skill.name}</h2>
-                                </div>
-                            </div>
+                        skillsData.map(skill =><SkillCard key={skill.id} skill={skill}/>
                         )
                     }
                 </div>
             </div>
+            
         </section>
     );
 };

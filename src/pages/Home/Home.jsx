@@ -1,18 +1,24 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Banner from '../../components/Banner/Banner';
 import About from '../../components/About/About';
-import Portfolio from '../Portfolio/Portfolio';
+
 import Skills from '../../components/Skills/Skills';
 import Education from '../../components/Education/Education';
-import Contact from '../Contact/Contact';
 
+import Portfolio from '../../components/Portfolio/Portfolio';
+import Loading from '../../components/Loading/Loading';
+import Contact from '../../components/Contact/Contact';
 
+const skillsPromise = fetch('/skills.json').then(res=>res.json());
+//console.log(skillsPromise);
 const Home = () => {
     return (
         <div>
             <Banner/>
             <About/>
-            <Skills/>
+            <Suspense fallback={<Loading/>}>
+                <Skills skillsPromise={skillsPromise}/>
+            </Suspense>
             <Education/>
             <Portfolio/>
             <Contact/>
