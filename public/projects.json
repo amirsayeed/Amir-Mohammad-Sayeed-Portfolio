@@ -3,6 +3,12 @@
       "id": 1,
       "name": "Volunteer Management",
       "image": "https://i.ibb.co/B2tF57H4/Screenshot-2025-06-28-225655.png",
+      "slides": [
+        "https://i.ibb.co/B2tF57H4/Screenshot-2025-06-28-225655.png",
+        "https://i.ibb.co/XwhwBFV/Screenshot-2025-06-29-213240.png",
+        "https://i.ibb.co/BKqQmkrS/Screenshot-2025-06-29-213347.png",
+        "https://i.ibb.co/q3vDRhSZ/Screenshot-2025-06-29-215542.png"
+      ],
       "description": "A responsive platform for creating and joining volunteer opportunities with secure authentication, post management, and personalized user experience.",
       "details": "Volunteer Management is a full-stack web application where users can create volunteering posts, browse other users’ posts, and choose to participate. Each user can manage their own posts through full CRUD operations and can also cancel their participation from events they’ve joined. The app emphasizes user-generated content, secure authentication, and a smooth UI for managing volunteering activities without any admin role.",
       "github": "https://github.com/amirsayeed/Volunteer-Management-Client",
@@ -25,6 +31,12 @@
       "id": 2,
       "name": "Plant Care",
       "image": "https://i.ibb.co/jkNdTkvs/Screenshot-2025-06-28-231328.png",
+      "slides": [
+        "https://i.ibb.co/jkNdTkvs/Screenshot-2025-06-28-231328.png",
+        "https://i.ibb.co/qYQLx7TK/Screenshot-2025-06-29-220526.png",
+        "https://i.ibb.co/RGwVJkwK/Screenshot-2025-06-29-220639.png",
+        "https://i.ibb.co/5XCSjmqj/Screenshot-2025-06-29-220826.png"
+      ],
       "description": "A full-stack plant management app where users can track and care for their plants with personalized CRUD features, secure auth, theme toggle, and responsive UI.",
       "details": "Plant Care is a responsive full-stack application tailored for plant lovers. Users can add, edit, and delete plant profiles, each associated with care tips and maintenance schedules. The platform supports Firebase authentication, a user dashboard, theme toggle, and a table view of all plants. Users can view plant details, sort by upcoming watering dates, and manage their personal plant list. The goal is to simplify the plant care process while offering a smooth and user-friendly experience.",
       "github": "https://github.com/amirsayeed/Plant-Care-Client",
@@ -47,6 +59,11 @@
       "id": 3,
       "name": "Subscription Box",
       "image": "https://i.ibb.co/9kd0Fd3x/Screenshot-2025-06-28-232511.png",
+      "slides": [
+        "https://i.ibb.co/9kd0Fd3x/Screenshot-2025-06-28-232511.png",
+        "https://i.ibb.co/prr07d3Y/Screenshot-2025-06-29-223734.png",
+        "https://i.ibb.co/Y7Z8bBq2/Screenshot-2025-06-29-221936.png"
+      ],
       "description": "A responsive subscription platform showcasing curated tech boxes with detailed product views. Features secure authentication and protected routes for accessing premium content.",
       "details": "Subscription Box is a fully responsive and interactive web application that showcases a variety of tech-themed subscription boxes including smart home gadgets, gaming accessories, and developer essentials. Users can browse featured boxes, view detailed product information, and access premium routes like profile,  contact pages and product details through secure Firebase authentication. The application also features an editable user profile (name and profile image), smooth AOS animations, and consistent layout across all devices. Built with React, Firebase, Tailwind CSS, and DaisyUI, it provides a clean, animated experience that highlights modern web development practices.",
       "github": "https://github.com/amirsayeed/Subscription-Box",

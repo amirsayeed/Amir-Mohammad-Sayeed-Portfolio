@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useNavigate, useParams } from 'react-router';
 import Loading from '../../components/Loading/Loading';
 import { FaArrowLeft, FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import Slider from './Slider';
 
 const ProjectDetails = () => {
     const { id } = useParams();
@@ -21,7 +22,7 @@ const ProjectDetails = () => {
 
     const {
         name,
-        image,
+        slides,
         details,
         technologies,
         github,
@@ -40,11 +41,10 @@ const ProjectDetails = () => {
             </button>
 
             <div className="space-y-8">
-                <img
-                src={image}
-                alt={name}
-                className="rounded-2xl shadow-md w-full object-cover"
-                />
+                
+                <div>
+                    <Slider slides={slides}/>
+                </div>
 
                 <h1 className="text-3xl font-bold">{name}</h1>
 
