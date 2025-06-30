@@ -3,7 +3,7 @@ import React from 'react';
 const Education = () => {
   return (
     <section className="scroll-mt-24 my-20" id='education'>
-       <div className="max-w-5xl mx-auto">
+       <div className="max-w-5xl mx-auto" data-aos="fade-right">
         <h2 className="text-3xl font-bold text-center mb-12 text-base-content">
           Education
         </h2>

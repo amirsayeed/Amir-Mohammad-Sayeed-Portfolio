@@ -22,7 +22,7 @@ const Skills = ({skillsPromise}) => {
 
     return (
         <section className="scroll-mt-24 my-20 px-4" id="skills">
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-7xl mx-auto" data-aos="fade-up-right">
                 <h2 className="text-3xl font-bold text-center">Skills</h2>
 
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">

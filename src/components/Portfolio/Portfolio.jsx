@@ -8,16 +8,13 @@ const Portfolio = () => {
     
     return (
         <section className='scroll-mt-24 my-20' id='portfolio'>
-            <h2 className="text-3xl font-bold text-center">My Portfolio</h2>
-            {/* <div className=' space-y-6 max-w-4xl mx-auto'>
-                
-                <p className='text-lg font-normal'>I love building web applications that are clean, responsive, and user-friendly.
-                Below are a few of my featured projects that showcase my skills in frontend and backend technologies. Each project reflects my dedication to solving real-world problems with modern tools.</p>
-            </div> */}
+            <div data-aos="zoom-in-right">
+                <h2 className="text-3xl font-bold text-center">My Portfolio</h2>
             
-            <Suspense fallback={<Loading/>}>   
-                <Project projectPromise={projectPromise}/>
-            </Suspense>
+                <Suspense fallback={<Loading/>}>   
+                    <Project projectPromise={projectPromise}/>
+                </Suspense>
+            </div>
         </section>
     );
 };
