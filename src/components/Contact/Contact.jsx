@@ -84,7 +84,7 @@ const Contact = () => {
               ></textarea>
             </label>
 
-            <button type="submit" className="btn btn-primary p-3 self-center">
+            <button type="submit" className="btn bg-[#1D4ED8] text-white rounded-2xl p-3 self-center">
               Send Message
             </button>
           </form>

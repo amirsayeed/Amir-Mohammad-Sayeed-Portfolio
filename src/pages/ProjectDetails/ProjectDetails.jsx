@@ -37,7 +37,7 @@ const ProjectDetails = () => {
         <div className="my-10 max-w-5xl mx-auto">
             <button
                 onClick={() => navigate(-1)}
-                className="mb-6 text-lg flex items-center gap-2"
+                className="mb-6 text-lg text-[#1D4ED8] flex items-center gap-2"
             >
                 <FaArrowLeft /> Back to Home
             </button>
@@ -68,7 +68,7 @@ const ProjectDetails = () => {
                     href={live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-primary gap-2 text-white rounded-xl"
+                    className="btn bg-[#1D4ED8] gap-2 text-white rounded-xl"
                 >
                     Live Site <FaExternalLinkAlt />
                 </a>

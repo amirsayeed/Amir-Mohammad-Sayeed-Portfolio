@@ -25,14 +25,14 @@ const ProjectCard = ({project}) => {
             </div> */}
             <p className='flex flex-wrap gap-2'>
                 {
-                    technologies.map((tech,idx)=><span key={idx} className='badge badge-outline badge-primary text-xs'>{tech}</span>)
+                    technologies.map((tech,idx)=><span key={idx} className='badge badge-outline text-[#3B82F6] border-[#3B82F6] text-xs font-semibold'>{tech}</span>)
                 }
             </p>
             <div className='card-actions justify-center'>
                 <Link to={`/projectDetails/${id}`}>
                     <button onClick={()=>{
                         window.scrollTo(0,0);
-                    }} className='btn btn-primary p-2'>View Details</button>
+                    }} className='btn bg-[#1D4ED8] text-white p-3 rounded-2xl'>View Details</button>
                 </Link>
             </div>
             
