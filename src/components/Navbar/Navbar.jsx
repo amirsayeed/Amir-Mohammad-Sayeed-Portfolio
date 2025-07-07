@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router';
+import logo from '../../assets/logo.png'
 
 const Navbar = () => {
     const location = useLocation();
     const isHome = location.pathname==='/';
     const links = <>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                   </>
@@ -28,7 +29,9 @@ const Navbar = () => {
                     </ul>
                     </div>
                 <div>
-                    <Link to='/' className="btn btn-ghost text-3xl font-bold">Sayeed</Link>
+                    <Link to='/'>
+                        <img src={logo} alt="" className='w-10 h-10 object-cover' />
+                    </Link>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">

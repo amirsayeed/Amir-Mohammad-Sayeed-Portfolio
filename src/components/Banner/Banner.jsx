@@ -28,13 +28,13 @@ const Banner = () => {
                 <h2 className="text-2xl mt-2 font-bold ">Full Stack Web Developer (MERN)</h2>
                 <p className="text-xl font-normal">I am passionate about creating modern, responsive web experiences and specialize in transforming ideas into engaging and visually appealing websites.</p>
                 <button onClick={()=>{
-                    window.open('https://drive.google.com/file/d/1LIIIS9q3bSjEjAWuyN0RT8kjihunC6Th/view?usp=sharing','_blank')
+                    window.open('https://drive.google.com/file/d/1WZ8hwMKAdffcHHJD6J_xafRHb-M4CYrq/view?usp=sharing','_blank')
                 }} className="btn bg-[#1D4ED8] text-white text-lg rounded-xl">Download Resume <MdOutlineFileDownload size={20} /></button>
                 <div className="flex gap-10 items-center justify-center lg:items-start lg:justify-start">
                     <a href="https://github.com/amirsayeed" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="text-2xl" />
                     </a>
-                    <a href="https://linkedin.com/in/amirsayeed" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/amir-mohammad-sayeed/" target="_blank" rel="noopener noreferrer">
                         <BsLinkedin className="text-2xl text-[#3B82F6]" />
                     </a>
                 </div>

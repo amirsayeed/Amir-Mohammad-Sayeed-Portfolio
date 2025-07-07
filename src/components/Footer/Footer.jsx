@@ -2,11 +2,14 @@ import React from 'react';
 import { Link } from 'react-router';
 import { FaGithub, FaLinkedin, FaHackerrank } from 'react-icons/fa';
 import { SiLeetcode, SiCodechef } from 'react-icons/si';
+import logo from '../../assets/logo.png'
 const Footer = () => {
     return (
          <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-16">
             <div>
-                <Link to="/" className="btn btn-ghost text-3xl font-bold">Sayeed</Link>
+                <Link to="/">
+                    <img src={logo} alt="" className='h-16 object-cover' />
+                </Link>
             </div>
 
             <nav>
@@ -14,7 +17,7 @@ const Footer = () => {
                 <a href="https://github.com/amirsayeed" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                 </a>
-                <a href="https://www.linkedin.com/in/amir-mohammad-sayeed-412169175/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/amir-mohammad-sayeed/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </a>
                 <a href="https://www.hackerrank.com/profile/amirsayeed090" target="_blank" rel="noopener noreferrer">
