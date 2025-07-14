@@ -7,9 +7,9 @@ const projectPromise = fetch('/projects.json').then(res=>res.json());
 const Portfolio = () => {
     
     return (
-        <section className='scroll-mt-24 my-20' id='portfolio'>
+        <section className='scroll-mt-24 my-20' id='projects'>
             <div data-aos="zoom-in-right">
-                <h2 className="text-3xl font-bold text-center">My Portfolio</h2>
+                <h2 className="text-3xl font-bold text-center">Projects</h2>
             
                 <Suspense fallback={<Loading/>}>   
                     <Project projectPromise={projectPromise}/>
