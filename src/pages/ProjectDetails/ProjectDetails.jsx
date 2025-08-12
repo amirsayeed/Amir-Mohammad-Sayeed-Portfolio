@@ -50,7 +50,7 @@ const ProjectDetails = () => {
 
                 <h1 className="text-3xl font-bold">{name}</h1>
 
-                <p className="text-lg">{details}</p>
+                <p className="text-lg text-justify">{details}</p>
 
                 <div className="flex flex-wrap gap-3 mt-4">
                     {technologies.map((tech, idx) => (

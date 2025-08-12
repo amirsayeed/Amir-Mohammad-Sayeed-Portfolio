@@ -29,7 +29,7 @@ const Contact = () => {
       <section id='contact' className="scroll-mt-24 my-20">
         <div className='px-1 md:px-4' data-aos="fade-right">
           <h3 className="text-3xl font-bold text-center">Contact</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 md:divide-x border border-gray-300 shadow-md mt-10 rounded-2xl px-8 py-12 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:divide-x border border-gray-300 shadow-lg mt-10 rounded-2xl px-8 py-12 gap-5">
             {/* Left side — Your contact info */}
             <div>
               <h3 className="text-xl font-medium mb-6">Feel free to reach out via any of the following:</h3>
