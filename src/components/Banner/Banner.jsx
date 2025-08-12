@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from '../../assets/wmremove-transformed_300x300-removebg.png'
+import pic from '../../assets/recentImage-removebg-preview.png'
 import { MdOutlineFileDownload } from 'react-icons/md';
 import { motion } from "motion/react";
 import { delay } from 'motion';
@@ -9,8 +9,8 @@ import { BsLinkedin } from 'react-icons/bs';
 const Banner = () => {
     return (
     <section
-    className="w-11/12 mx-auto mt-20" id='banner'>
-        <div className="flex flex-col items-center justify-center md:flex-row md:justify-between gap-10 md:gap-5">
+    className="mt-20" id='banner'>
+        <div className="flex flex-col items-center justify-center md:flex-row md:justify-between gap-10 md:gap-5 px-1 md:px-4">
             <div className="text-center lg:text-left space-y-6 max-w-2xl">
                 <motion.h1
                  animate={{
@@ -45,7 +45,7 @@ const Banner = () => {
                 transition: { duration:  3, repeat:Infinity  }
             }}
             className='px-1'>
-                <img src={pic} className="max-w-md border-s-8 border-b-8 border-blue-500 object-cover rounded-xl shadow-2xl"/>
+                <img src={pic} className="max-w-md border-s-8 border-b-8 border-blue-500 rounded-xl shadow-2xl"/>
             </motion.div>
         </div>
     </section>

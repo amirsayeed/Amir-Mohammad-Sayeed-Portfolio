@@ -10,7 +10,7 @@ const Slider = ({slides}) => {
                 <img
                 src={slide}
                 alt={slide}
-                className="rounded-2xl shadow-md w-full h-[75vh] object-cover"
+                className="rounded-2xl shadow-md w-full h-[80vh] object-cover"
                 />
             </div>)
            }

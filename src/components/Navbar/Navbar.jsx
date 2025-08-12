@@ -16,7 +16,8 @@ const Navbar = () => {
     const home = <li><Link to='/'>Home</Link></li>;
 
     return (
-        <div className="navbar bg-base-100 sticky top-0 z-50 shadow-md">
+        <div className='bg-base-100 sticky top-0 z-50 shadow-md'>
+            <div className="navbar max-w-[1500px] mx-auto md:px-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -70,6 +71,7 @@ const Navbar = () => {
                 </svg>
                 </label>
             </div>
+        </div>
         </div>
     );
 };

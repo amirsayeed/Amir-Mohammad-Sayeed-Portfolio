@@ -1,6 +1,34 @@
  [
     {
       "id": 1,
+      "name": "TechLyst",
+      "image": "https://i.ibb.co/Ngd2SZkf/Screenshot-2025-07-25-022034.png",
+      "slides": [
+        "https://i.ibb.co/Ngd2SZkf/Screenshot-2025-07-25-022034.png",
+        "https://i.ibb.co/N23CFG9P/Screenshot-2025-07-25-022152.png",
+        "https://i.ibb.co/4nK6mTB4/Screenshot-2025-07-25-022323.png",
+        "https://i.ibb.co/xtvwJNBs/Screenshot-2025-07-25-022447.png"
+      ],
+      "description": "A full-stack MERN platform for discovering, sharing, and reviewing tech products with role-based access, moderation tools, and subscription system.",
+      "details": "TechLyst is a feature-rich product showcase platform inspired by Product Hunt. It allows users to add, upvote, review, and report tech products like web apps, AI tools, and games. The app includes secure Firebase + JWT authentication, moderator and admin dashboards, and a Stripe-powered subscription model with coupon support. Users can explore featured/trending products, while moderators and admins manage content, users, and site-wide statistics.",
+      "github": "https://github.com/amirsayeed/techlyst-client",
+      "live": "https://techlyst-411bf.web.app/",
+      "technologies": ["React", "Express", "MongoDB", "Firebase", "Stripe", "Tailwind", "DaisyUI"],
+      "challenges": [
+        "Implementing secure upvote and report systems with duplicate prevention.",
+        "Handling dynamic role-based dashboard routing and component rendering.",
+        "Integrating Stripe payment with coupon validation and membership tracking."
+      ],
+      "future": [
+        "Add real-time notifications for product updates and review responses.",
+        "Implement analytics dashboard for product owners.",
+        "Introduce public API access for integrating TechLyst products elsewhere.",
+        "Allow users to bookmark or follow favorite products and creators.",
+        "Enable in-app messaging between product creators and reviewers."
+      ]
+    },
+    {
+      "id": 2,
       "name": "Volunteer Management",
       "image": "https://i.ibb.co/B2tF57H4/Screenshot-2025-06-28-225655.png",
       "slides": [
@@ -28,7 +56,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Plant Care",
       "image": "https://i.ibb.co/jkNdTkvs/Screenshot-2025-06-28-231328.png",
       "slides": [
@@ -53,34 +81,6 @@
         "Create an admin role to feature or manage user-submitted plants.",
         "Support image upload for each plant profile.",
         "Implement pagination for the all plants page to improve scalability."
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Subscription Box",
-      "image": "https://i.ibb.co/9kd0Fd3x/Screenshot-2025-06-28-232511.png",
-      "slides": [
-        "https://i.ibb.co/9kd0Fd3x/Screenshot-2025-06-28-232511.png",
-        "https://i.ibb.co/prr07d3Y/Screenshot-2025-06-29-223734.png",
-        "https://i.ibb.co/Y7Z8bBq2/Screenshot-2025-06-29-221936.png"
-      ],
-      "description": "A responsive subscription platform showcasing curated tech boxes with detailed product views. Features secure authentication and protected routes for accessing premium content.",
-      "details": "Subscription Box is a fully responsive and interactive web application that showcases a variety of tech-themed subscription boxes including smart home gadgets, gaming accessories, and developer essentials. Users can browse featured boxes, view detailed product information, and access premium routes like profile,  contact pages and product details through secure Firebase authentication. The application also features an editable user profile (name and profile image), smooth AOS animations, and consistent layout across all devices. Built with React, Firebase, Tailwind CSS, and DaisyUI, it provides a clean, animated experience that highlights modern web development practices.",
-      "github": "https://github.com/amirsayeed/Subscription-Box",
-      "live": "https://subscription-box-edd92.web.app/",
-      "technologies": ["React", "Firebase", "Tailwind", "DaisyUI", "React Router DOM", "AOS"],
-      "challenges": [
-        "Integrating AOS animations smoothly with route transitions and content loading.",
-        "Protecting routes and redirecting unauthorized users effectively using React Router.",
-        "Managing dynamic product detail routing and consistent layout rendering.",
-        "Handling form validation and toast-based feedback for login, registration, and profile updates."
-      ],
-      "future": [
-        "Integrate Stripe or another payment gateway for real subscriptions.",
-        "Add an admin dashboard for managing subscription boxes and users.",
-        "Implement order history and billing management for users.",
-        "Enable user reviews and rating submissions for each box.",
-        "Improve performance with pagination or lazy loading for box listings."
       ]
     }
 ]
