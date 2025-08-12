@@ -5,8 +5,11 @@ import { motion } from "motion/react";
 import { delay } from 'motion';
 import { FaEnvelope, FaGithub } from 'react-icons/fa';
 import { BsLinkedin } from 'react-icons/bs';
+import { ReactTyped } from 'react-typed';
+
 
 const Banner = () => {
+
     return (
     <section
     className="mt-20" id='banner'>
@@ -25,17 +28,30 @@ const Banner = () => {
                  transition= {{ duration: 3, repeat: Infinity}}
                  >Amir Mohammad Sayeed.</motion.span>
                 </motion.h1>
-                <h2 className="text-2xl mt-2 font-bold ">Full Stack Web Developer (MERN)</h2>
+                <h2 className="text-2xl mt-2 font-bold" style={{ minHeight: "2rem" }}>
+                    <ReactTyped
+                        strings={[
+                            "Full Stack Developer (MERN)",
+                            "Frontend Developer (React.js)",
+                            "JavaScript Developer"
+                        ]}
+                        typeSpeed={50}
+                        backSpeed={40}
+                        backDelay={1200}
+                        showCursor={false}
+                        loop
+                    />
+                </h2>
                 <p className="text-xl font-normal">I am passionate about creating modern, responsive web experiences and specialize in transforming ideas into engaging and visually appealing websites.</p>
                 <button onClick={()=>{
                     window.open('https://drive.google.com/file/d/1WZ8hwMKAdffcHHJD6J_xafRHb-M4CYrq/view?usp=sharing','_blank')
-                }} className="btn bg-[#1D4ED8] text-white text-lg rounded-xl">Download Resume <MdOutlineFileDownload size={20} /></button>
+                }} className="btn bg-[#1D4ED8] p-3 text-white text-lg rounded-xl">Download Resume <MdOutlineFileDownload size={20} /></button>
                 <div className="flex gap-10 items-center justify-center lg:items-start lg:justify-start">
                     <a href="https://github.com/amirsayeed" target="_blank" rel="noopener noreferrer">
-                        <FaGithub className="text-2xl" />
+                        <FaGithub className="text-3xl" />
                     </a>
                     <a href="https://www.linkedin.com/in/amir-mohammad-sayeed/" target="_blank" rel="noopener noreferrer">
-                        <BsLinkedin className="text-2xl text-[#3B82F6]" />
+                        <BsLinkedin className="text-3xl text-[#3B82F6]" />
                     </a>
                 </div>
             </div>

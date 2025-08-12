@@ -4,7 +4,7 @@ const SkillCard = ({skill}) => {
     const {image,name} = skill;
     
     return (
-        <div className="bg-base-200 shadow-md hover:scale-105 transition-transform duration-200 rounded-2xl p-6 w-full max-w-[220px]">
+        <div className="border border-gray-300 shadow-md hover:scale-105 transition-transform duration-200 rounded-2xl p-7 w-full">
             <figure className="flex justify-center mb-4">
                 <img
                     src={image}

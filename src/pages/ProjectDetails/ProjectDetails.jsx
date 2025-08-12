@@ -34,7 +34,7 @@ const ProjectDetails = () => {
     return (
         <>
         <title>Sayeed | Project Details </title>
-        <div className="my-10 max-w-5xl mx-auto">
+        <div className="my-10 px-1 md:px-4">
             <button
                 onClick={() => navigate(-1)}
                 className="mb-6 text-lg text-[#1D4ED8] flex items-center gap-2"

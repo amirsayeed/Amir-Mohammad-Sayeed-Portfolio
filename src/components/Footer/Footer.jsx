@@ -5,7 +5,7 @@ import { SiLeetcode, SiCodechef } from 'react-icons/si';
 import logo from '../../assets/logo.png'
 const Footer = () => {
     return (
-         <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-16">
+         <footer className="footer footer-horizontal footer-center bg-neutral text-neutral-content rounded p-12">
             <div>
                 <Link to="/">
                     <img src={logo} alt="" className='h-16 object-cover' />

@@ -8,7 +8,7 @@ const Portfolio = () => {
     
     return (
         <section className='scroll-mt-24 my-20' id='projects'>
-            <div data-aos="zoom-in-right">
+            <div className='px-1 md:px-4' data-aos="zoom-in-right">
                 <h2 className="text-3xl font-bold text-center">Projects</h2>
             
                 <Suspense fallback={<Loading/>}>   

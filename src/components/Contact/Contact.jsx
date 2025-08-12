@@ -1,8 +1,9 @@
 import React, { useRef } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
-import { MdEmail, MdLocationOn } from 'react-icons/md';
+import { MdEmail, MdLocationOn, MdMessage } from 'react-icons/md';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
+import { IoMdCall } from 'react-icons/io';
 const Contact = () => {
   const form = useRef();
 
@@ -26,23 +27,40 @@ const Contact = () => {
   };
     return (
       <section id='contact' className="scroll-mt-24 my-20">
-        <div data-aos="fade-right">
+        <div className='px-1 md:px-4' data-aos="fade-right">
           <h3 className="text-3xl font-bold text-center">Contact</h3>
-          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 md:divide-x bg-base-200 mt-10 rounded-2xl p-10 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:divide-x border border-gray-300 shadow-md mt-10 rounded-2xl px-8 py-12 gap-5">
             {/* Left side — Your contact info */}
-            <div className="space-y-6">
-              <p className="text-xl font-medium">Feel free to reach out via any of the following:</p>
+            <div>
+              <h3 className="text-xl font-medium mb-6">Feel free to reach out via any of the following:</h3>
 
               <div className="space-y-5">
-                <p className="flex flex-col md:flex-row items-center">
-                  <MdEmail className="w-6 h-6 mr-3" />
+                <div>
+                  <p className="flex flex-col md:flex-row items-center">
+                  <MdEmail className="w-6 h-6 mr-3 text-yellow-400" />
                   <a href="mailto:amirsayeed090@gmail.com" className="hover:underline">
                     amirsayeed090@gmail.com
                   </a>
-                </p>
+                  </p>
+                </div>
 
-                <p className="flex flex-col md:flex-row items-center">
-                  <FaWhatsapp className="w-6 h-6 mr-3" />
+                <div>
+                  <p className="flex flex-col md:flex-row items-center">
+                  <IoMdCall className="w-6 h-6 mr-3 text-red-500" />
+                  <a
+                    href="https://wa.me/8801716473978"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    +880-1716473978
+                  </a>
+                </p>
+                </div>
+
+                <div>
+                  <p className="flex flex-col md:flex-row items-center">
+                  <FaWhatsapp className="w-6 h-6 mr-3 text-green-500" />
                   <a
                     href="https://wa.me/8801716473978"
                     target="_blank"
@@ -52,11 +70,14 @@ const Contact = () => {
                     +880-1716473978 (WhatsApp)
                   </a>
                 </p>
+                </div>
 
-                <p className="flex flex-col md:flex-row items-center">
-                  <MdLocationOn className="w-6 h-6 mr-3" />
+                <div>
+                  <p className="flex flex-col md:flex-row items-center">
+                  <MdLocationOn className="w-6 h-6 mr-3 text-[#3B82F6]" />
                   Chattogram, Bangladesh
                 </p>
+                </div>
               </div>
             </div>
 
@@ -84,8 +105,9 @@ const Contact = () => {
                 ></textarea>
               </label>
 
-              <button type="submit" className="btn bg-[#1D4ED8] text-white rounded-2xl p-3 self-center">
-                Send Message
+              <button type="submit" className="btn bg-[#1D4ED8] flex text-white rounded-2xl p-3 self-center">
+                <span>Send Message</span>
+                <span><MdMessage className='text-lg' /></span>
               </button>
             </form>
           </div>

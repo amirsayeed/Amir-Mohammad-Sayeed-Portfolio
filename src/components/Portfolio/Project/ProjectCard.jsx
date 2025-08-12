@@ -1,11 +1,12 @@
 import React from 'react';
+import { FcViewDetails } from 'react-icons/fc';
 import { Link } from 'react-router';
 
 const ProjectCard = ({project}) => {
     const {id,name,image,description,technologies} = project;
 
     return (
-        <div className="card bg-base-200 shadow-md p-3 hover:scale-105">
+        <div className="card bg-base-100 border border-gray-200 rounded-xl shadow-md p-3 hover:scale-105">
         <figure>
             <img
             src={image}
@@ -32,7 +33,10 @@ const ProjectCard = ({project}) => {
                 <Link to={`/projectDetails/${id}`}>
                     <button onClick={()=>{
                         window.scrollTo(0,0);
-                    }} className='btn bg-[#1D4ED8] text-white p-3 rounded-2xl'>View Details</button>
+                    }} className='btn bg-[#1D4ED8] flex text-white p-3 rounded-2xl'>
+                        <span>View Details</span>
+                        <span><FcViewDetails size={20} /></span>
+                    </button>
                 </Link>
             </div>
             
